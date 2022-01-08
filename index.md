@@ -1,12 +1,12 @@
 ## Convenções para nomeação de itens em bancos de dados relacionais
 
-Neste texto apresento algumas sugestões para a nomeação de objetos em bancos de dados relacionais como MySQL, PostgreSQL e SQLite. São convenções coletadas de alguns fontes pesquisadas, adaptadas a minha experiência pessoal.
+Neste texto apresento algumas sugestões para a nomeação de objetos em bancos de dados relacionais como MySQL, PostgreSQL e SQLite. São convenções coletadas de alguns fontes pesquisadas, adaptadas a minha experiência ou visão pessoal.
 
 Tabelas:
 1. Usar nomes em **letras minúsculas** somente e evitar números e sublinhado (_ ) no início do nome;
 2. Usar sempre o **singular**. Por exemplo: **pessoa**;
 3. Não usar prefixos. Por exemplo: tbl_;
-4. 
+4. Não usar para o nome de tabela o mesmo nome de uma de suas colunas.
 
 
 
