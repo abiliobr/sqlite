@@ -1,3 +1,11 @@
+## Convenções para nomeação de itens em bancos de dados relacionais
+
+Neste texto apresento algumas normas para a nomeação de objetos em bancos de dados relacionais como SQLite ou MySQL, que foram adapatadas de alguns locais.
+
+
+
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/abiliobr/dbnc/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
