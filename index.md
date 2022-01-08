@@ -4,9 +4,11 @@ Neste texto apresento algumas sugestões para a nomeação de objetos em bancos 
 
 Tabelas:
 1. Usar nomes de tabelas em **letras minúsculas** somente, evitanto números e sublinhados \(_) no início do nome;
-2. Usar sempre o **singular**. Por exemplo: **pessoa**;
-3. Não usar prefixos. Por exemplo: tbl_;
-4. Não usar para o nome de tabela o mesmo nome de uma de suas colunas.
+2. Evitar o uso de sublinhado em tabelas com nomes compostos, preferindo a justaposição das palavras. Por exemplo: contabancaria.
+3. Usar nomes sempre no **singular**. Por exemplo: pessoa;
+4. Não usar prefixos. Por exemplo: tbl_pessoa;
+5. Não usar para o nome de tabela o mesmo nome de uma de suas colunas.
+6. Para nomes de tabelas que representam relacionamentos 'um-para-muitos', usar o sublinhado como separador ou \_x_. Por exemplo: usuario_emprestimo ou usuario_x_emprestimo.
 
 
 
