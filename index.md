@@ -46,3 +46,4 @@ Neste texto apresento algumas sugestões para a nomeação de objetos em bancos 
 4. https://imasters.com.br/data/convencoes-de-nomeacao-de-sql-schema
 5. https://pt.stackoverflow.com/questions/138452/nomenclatura-de-tabela-e-coluna
 6. https://www.devmedia.com.br/padronizacao-de-nomenclatura-revista-sql-magazine-100/24710
+7. https://gist.github.com/twolfson/dbf5dbb673cbac88836d
