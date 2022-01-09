@@ -28,4 +28,3 @@ Como o contexto de aplicação é em língua portuguesa, pode ser que alguma reg
 7. O nome da uma chave primária da tabela deve ser somente 'id' e deve estar na primeira posição da estrutura da tabela;
 8. O nome de uma chave estrangeira deve ser o nome da tabela estrangeira correlata sufixado com \_id. Por exemplo: pessoa_id;
 9. Alguns sufixos como \_status, \_seq, etc. podem ser usados para recordar o tipo da coluna. Por exemplo: devolucao_status, senha_seq.
-10. 
