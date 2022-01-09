@@ -3,14 +3,16 @@
 Neste texto apresento algumas sugestões para a nomeação de objetos em bancos de dados relacionais como MySQL, PostgreSQL e SQLite.
 
 ### Nomes de objetos em geral
-1. Evitar caracteres acentuados, espaços, hifens e caracteres especiais em nomes de tabelas, colunas e views;
-2. Evitar o uso de PascalCase e camelCase. Por exemplo, é melhor usar data_nascimento ou datanascimento do que as formas DataNascimento ou dataNascimento;
-3. Evitar o uso de abreviações;
-4. Evitar o uso de palavras reservadas do SQL, como insert, delete, union, etc;
-5. Evitar, se possível, o uso de preposições e usar verbos apenas para nomes de rotinas armazenadas (*stored procedures* ou SP).
+1. Usar apenas **letras minúsculas**, números e sublinhado (\_) para nomes em geral;
+2. Evitar caracteres acentuados, espaços, hifens e caracteres especiais em nomes de tabelas, colunas e views;
+3. Evitar o uso de PascalCase e camelCase. Por exemplo, é preferível usar 'data_nascimento' ou 'datanascimento' do que 'DataNascimento' ou 'dataNascimento';
+4. Evitar o uso de abreviações;
+5. Evitar o uso de palavras reservadas do SQL, como insert, delete, union, etc;
+6. Evitar, se possível, o uso de preposições e outras partículas que podem ser facilmente deduzidas;
+7. Usar verbos apenas para nomes de rotinas armazenadas (*stored procedures* ou SP).
 
 ### Nomes de Tabelas
-1. Os nomes de tabelas devem estar em **letras minúsculas** somente, evitando números e sublinhados (\_) no início do nome;
+1. Os nomes de tabelas devem estar em letras minúsculas somente, evitando números e sublinhados (\_) no início do nome;
 2. Os nomes de tabelas devem estar no **singular**. Por exemplo: pessoa, contato, grupo;
 3. Evitar o uso de prefixos como tbl_ ou tab_;
 4. Evitar o uso de sublinhado em tabelas com nomes compostos, preferindo a justaposição das palavras. Por exemplo: contabancaria;
@@ -19,11 +21,11 @@ Neste texto apresento algumas sugestões para a nomeação de objetos em bancos 
 
 ### Nomes de Colunas
 1. O nome de uma coluna não deve ter o mesmo nome da tabela que a contém;
-2. Os nomes das colunas não devem ter o nome da tabela por "prefixo". Por exemplo: usar 'datanascimento' em vez de 'pessoa_datanascimento'; 
+2. Para evitar redundância, os nomes das colunas não devem ter o nome da tabela por "prefixo". Por exemplo: é suficiente nomear apenas com 'datanascimento' em vez de 'pessoa_datanascimento'; 
 3. Os nomes de colunas devem estar sempre no **singular**;
-4. Os nomes de colunas devem estar em **letras minúsculas** somente, exceto para siglas conhecidas ou nomes que requerem o uso de alguma letra maiúscula;
+4. Os nomes de colunas devem estar em letras minúsculas somente, exceto para siglas conhecidas ou nomes que requerem o uso de alguma letra maiúscula. Por exemplo: codigoISSN;
 5. Pode-se usar o sublinhado para melhorar a leitura do dado. Por exemplo: data_nascimento;
-6. Alguns sufixos como \_status, \_seq, etc. podem ser usados para recordar o tipo da coluna. Por exemplo: devolucao_status, senha_seq.
+6. Alguns sufixos como \_status, \_seq, etc. podem ser usados para relembrar o tipo da coluna. Por exemplo: devolucao_status, senha_seq.
 
 ### Nomes de Chaves Primárias
 1. Evitar o uso de prefixos como pk_ e fk_ para chaves primárias e estrangeiras;
@@ -38,3 +40,4 @@ Neste texto apresento algumas sugestões para a nomeação de objetos em bancos 
 2. https://stackoverflow.com/questions/7662/database-table-and-column-naming-conventions
 3. https://www.sqlstyle.guide/#uniform-suffixes
 4. https://imasters.com.br/data/convencoes-de-nomeacao-de-sql-schema
+5. https://pt.stackoverflow.com/questions/138452/nomenclatura-de-tabela-e-coluna
