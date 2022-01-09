@@ -21,7 +21,7 @@ Neste texto apresento algumas sugestões para a nomeação de objetos em bancos 
 2. Os nomes das colunas não devem ter o nome da tabela por "prefixo". Por exemplo: usar 'datanascimento' em vez de 'pessoa_datanascimento'; 
 3. Os nomes de colunas devem estar sempre no **singular**;
 4. Os nomes de colunas devem estar em **letras minúsculas** somente, exceto para siglas conhecidas ou nomes que requerem o uso de alguma letra maiúscula;
-5. Pode-se usar o sublinhado para melhor leitura do campo. Por exemplo: data_nascimento;
+5. Pode-se usar o sublinhado para melhorar a leitura do dado. Por exemplo: data_nascimento;
 6. Evitar o uso de prefixos como pk_ e fk_ para chaves primárias e estrangeiras;
 7. O nome da uma chave primária da tabela deve ser somente 'id' e deve ser a primeira coluna da tabela;
 8. O nome de uma chave estrangeira deve ser o nome da tabela estrangeira sufixado com \_id. Por exemplo: pessoa_id;
