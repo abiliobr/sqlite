@@ -25,7 +25,7 @@ Como o contexto de aplicação é em língua portuguesa, pode ser que alguma reg
 4. Os nomes de colunas devem estar em **letras minúsculas** somente, exceto para siglas conhecidas ou nomes que requerem o uso de alguma letra maiúscula;
 5. Pode-se usar sublinhado para melhor leitura do campo. Por exemplo: data_nascimento;
 6. Evitar o uso de prefixos como pk_ e fk_ para chaves primárias e estrangeiras;
-7. O nome da chave primária da tabela deve ser somente 'id' e deve estar na primeira posição da estrutura da tabela;
-8. O nome de chaves estrangeiras devem ser o nome da tabela estrangeira correspondente concatenado com \_id. Por exemplo: pessoa_id;
+7. O nome da uma chave primária da tabela deve ser somente 'id' e deve estar na primeira posição da estrutura da tabela;
+8. O nome de uma chave estrangeira deve ser o nome da tabela estrangeira correlata sufixado com \_id. Por exemplo: pessoa_id;
 9. Alguns sufixos como \_status, \_seq, etc. podem ser usados para recordar o tipo da coluna. Por exemplo: devolucao_status, senha_seq.
 10. 
