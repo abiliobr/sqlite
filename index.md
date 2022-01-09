@@ -24,7 +24,7 @@ Neste texto apresento algumas sugestões para a nomeação de objetos em bancos 
 2. Para evitar redundância, os nomes das colunas não devem ter o nome da tabela por "prefixo". Por exemplo: é suficiente nomear apenas com 'datanascimento' em vez de 'pessoa_datanascimento'; 
 3. Os nomes de colunas devem estar sempre no **singular**;
 4. Os nomes de colunas devem estar em letras minúsculas somente, exceto para siglas conhecidas ou nomes que requerem o uso de alguma letra maiúscula. Por exemplo: codigoISSN;
-5. Pode-se usar o sublinhado para melhorar a leitura do dado. Por exemplo: data_nascimento;
+5. Pode-se usar o sublinhado para melhorar a leitura do elemento. Por exemplo: data_nascimento;
 6. Alguns sufixos como \_status, \_seq, etc. podem ser usados para relembrar o tipo da coluna. Por exemplo: devolucao_status, senha_seq.
 
 ### Nomes de Chaves Primárias
