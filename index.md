@@ -11,7 +11,7 @@ Como o contexto de aplicação é em língua portuguesa, pode ser que alguma reg
 4. Evitar, se possível, preposições e usar verbos apenas para nomes de rotinas armazenadas (*stored procedures* ou SP).
 
 ### Tabelas
-1. Os nomes de tabelas devem estar em **letras minúsculas** somente, evitando números e sublinhados no início do nome;
+1. Os nomes de tabelas devem estar em **letras minúsculas** somente, evitando números e sublinhados (\_) no início do nome;
 2. Os nomes de tabelas devem estar no **singular**. Por exemplo: pessoa, contato, grupo;
 3. Evitar o uso de sublinhado em tabelas com nomes compostos, preferindo a justaposição das palavras. Por exemplo: contabancaria;
 4. Para nomes de tabelas que representam relacionamentos 'um-para-muitos', usar o sublinhado como separador ou \_x_. Por exemplo: usuario_emprestimo ou usuario_x_emprestimo;
