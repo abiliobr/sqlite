@@ -13,10 +13,10 @@ Como o contexto de aplicação é em língua portuguesa, pode ser que alguma reg
 ### Tabelas
 1. Os nomes de tabelas devem estar em **letras minúsculas** somente, evitando números e sublinhados (\_) no início do nome;
 2. Os nomes de tabelas devem estar no **singular**. Por exemplo: pessoa, contato, grupo;
-3. Evitar o uso de sublinhado em tabelas com nomes compostos, preferindo a justaposição das palavras. Por exemplo: contabancaria;
-4. Para nomes de tabelas que representam relacionamentos 'um-para-muitos', usar o sublinhado como separador ou \_x_. Por exemplo: usuario_emprestimo ou usuario_x_emprestimo;
-5. Evitar o uso de prefixos como tbl_ ou tab_;
-6. O nome de uma tabela não deve ser coincidir com o nome de uma de suas colunas.
+3. Evitar o uso de prefixos como tbl_ ou tab_;
+4. Evitar o uso de sublinhado em tabelas com nomes compostos, preferindo a justaposição das palavras. Por exemplo: contabancaria;
+5. Para nomes de tabelas que representam relacionamentos 'um-para-muitos', usar o sublinhado como separador ou \_X_ ou apenas X. Por exemplo: usuario_emprestimo ou usuario_X_emprestimo ou usuarioXemprestimo;
+7. O nome de uma tabela não deve ser coincidir com o nome de uma de suas colunas.
 
 ### Colunas
 1. O nome de uma coluna não deve ter o mesmo nome da tabela que a contém;
