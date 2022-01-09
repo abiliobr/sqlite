@@ -26,3 +26,11 @@ Neste texto apresento algumas sugestões para a nomeação de objetos em bancos 
 7. O nome da uma chave primária da tabela deve ser somente 'id' e deve ser a primeira coluna da tabela;
 8. O nome de uma chave estrangeira deve ser o nome da tabela estrangeira sufixado com \_id. Por exemplo: pessoa_id;
 9. Alguns sufixos como \_status, \_seq, etc. podem ser usados para recordar o tipo da coluna. Por exemplo: devolucao_status, senha_seq.
+
+
+## Referências
+1. https://github.com/RootSoft/Database-Naming-Convention
+2. https://stackoverflow.com/questions/7662/database-table-and-column-naming-conventions
+3. https://www.sqlstyle.guide/#uniform-suffixes
+4. https://imasters.com.br/data/convencoes-de-nomeacao-de-sql-schema
+5. 
