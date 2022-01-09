@@ -16,15 +16,15 @@ Como o contexto de aplicação é em língua portuguesa, pode ser que alguma reg
 3. Evitar o uso de sublinhado em tabelas com nomes compostos, preferindo a justaposição das palavras. Por exemplo: contabancaria;
 4. Para nomes de tabelas que representam relacionamentos 'um-para-muitos', usar o sublinhado como separador ou \_x_. Por exemplo: usuario_emprestimo ou usuario_x_emprestimo;
 5. Evitar o uso de prefixos como tbl_ ou tab_;
-6. O nome de tabela não deve ser coincidir com o nome de uma de suas colunas.
+6. O nome de uma tabela não deve ser coincidir com o nome de uma de suas colunas.
 
 ### Colunas
 1. O nome de uma coluna não deve ter o mesmo nome da tabela que a contém;
 2. Os nomes das colunas não devem ter o nome da tabela por "prefixo". Por exemplo: usar 'datanascimento' em vez de 'pessoa_datanascimento'; 
 3. Os nomes de colunas devem estar sempre no **singular**;
 4. Os nomes de colunas devem estar em **letras minúsculas** somente, exceto para siglas conhecidas ou nomes que requerem o uso de alguma letra maiúscula;
-5. Pode-se usar sublinhado para melhor leitura do campo. Por exemplo: data_nascimento;
+5. Pode-se usar o sublinhado para melhor leitura do campo. Por exemplo: data_nascimento;
 6. Evitar o uso de prefixos como pk_ e fk_ para chaves primárias e estrangeiras;
-7. O nome da uma chave primária da tabela deve ser somente 'id' e deve estar na primeira posição da estrutura da tabela;
-8. O nome de uma chave estrangeira deve ser o nome da tabela estrangeira correlata sufixado com \_id. Por exemplo: pessoa_id;
+7. O nome da uma chave primária da tabela deve ser somente 'id' e deve ser a primeira coluna da tabela;
+8. O nome de uma chave estrangeira deve ser o nome da tabela estrangeira sufixado com \_id. Por exemplo: pessoa_id;
 9. Alguns sufixos como \_status, \_seq, etc. podem ser usados para recordar o tipo da coluna. Por exemplo: devolucao_status, senha_seq.
