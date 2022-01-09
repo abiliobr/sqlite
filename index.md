@@ -1,7 +1,8 @@
 ## Convenções para nomeação de itens em bancos de dados relacionais
 
 Neste texto apresento algumas sugestões para a nomeação de objetos em bancos de dados relacionais como MySQL, PostgreSQL e SQLite. São convenções coletadas de alguns fontes, adaptadas a minha experiência ou visão pessoal.
-Como o contexto de aplicação é para o uso de língua portuguesa, pode ser que alguma regra não seja conveniente para outros idiomas.
+
+Como o contexto de aplicação é em língua portuguesa, pode ser que alguma regra não seja conveniente para uso em outros idiomas.
 
 ### Nomes de objetos em geral
 1. Evitar o uso de caracteres acentuados, espaços, hifens e caracteres especiais em nomes de tabelas e colunas;
