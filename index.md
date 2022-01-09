@@ -8,7 +8,7 @@ Como o contexto de aplicação é em língua portuguesa, pode ser que alguma reg
 1. Evitar caracteres acentuados, espaços, hifens e caracteres especiais em nomes de tabelas e colunas;
 2. Evitar o uso de PascalCase e camelCase. Por exemplo, é melhor usar data_nascimento ou datanascimento do que as formas DataNascimento ou dataNascimento;
 3. Evitar palavras reservadas do SQL, como insert, delete, union, etc;
-4. Evitar, se possível, verbos e preposições.
+4. Evitar, se possível, preposições e usar verbos apenas para nomes de rotinas armazenadas (*stored procedures* ou SP).
 
 ### Tabelas
 1. Os nomes de tabelas devem estar em **letras minúsculas** somente, evitando números e sublinhados no início do nome;
