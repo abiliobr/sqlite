@@ -1,13 +1,11 @@
 ## Convenções para nomeação de itens em bancos de dados relacionais
 
-Neste texto apresento algumas sugestões para a nomeação de objetos em bancos de dados relacionais como MySQL, PostgreSQL e SQLite. São ideias coletadas de algumas fontes, adaptadas a minha experiência pessoal.
-
-Como o contexto de aplicação é em língua portuguesa, pode ser que alguma regra não seja conveniente para uso em outros idiomas.
+Neste texto apresento algumas sugestões para a nomeação de objetos em bancos de dados relacionais como MySQL, PostgreSQL e SQLite.
 
 ### Nomes de objetos em geral
-1. Evitar caracteres acentuados, espaços, hifens e caracteres especiais em nomes de tabelas e colunas;
+1. Evitar caracteres acentuados, espaços, hifens e caracteres especiais em nomes de tabelas, colunas e views;
 2. Evitar o uso de PascalCase e camelCase. Por exemplo, é melhor usar data_nascimento ou datanascimento do que as formas DataNascimento ou dataNascimento;
-3. Evitar palavras reservadas do SQL, como insert, delete, union, etc;
+3. Evitar o uso de palavras reservadas do SQL, como insert, delete, union, etc;
 4. Evitar, se possível, preposições e usar verbos apenas para nomes de rotinas armazenadas (*stored procedures* ou SP).
 
 ### Tabelas
