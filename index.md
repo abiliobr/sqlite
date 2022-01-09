@@ -1,9 +1,15 @@
 ## Convenções para nomeação de itens em bancos de dados relacionais
 
 Neste texto apresento algumas sugestões para a nomeação de objetos em bancos de dados relacionais como MySQL, PostgreSQL e SQLite. São convenções coletadas de alguns fontes, adaptadas a minha experiência ou visão pessoal.
+Como o contexto de aplicação é para o uso de língua portuguesa, pode ser que alguma regra não seja conveniente para outros idiomas.
+
+### Nomes de objetos em geral
+1. Evitar o uso de caracteres acentuados, espaços, hifens e caracteres especiais em nomes de tabelas e colunas;
+3. Evitar nomes reservados do SQL, como insert, delete, union, etc;
+4. Evitar, se possível, verbos e preposições.
 
 ### Tabelas
-1. Os nomes de tabelas devem estar em **letras minúsculas** somente, evitando números e sublinhados (\_) no início do nome;
+1. Os nomes de tabelas devem estar em **letras minúsculas** somente, evitando números e sublinhados no início do nome;
 2. Os nomes de tabelas devem estar no **singular**. Por exemplo: pessoa;
 3. Evitar o uso de sublinhado em tabelas com nomes compostos, preferindo a justaposição das palavras. Por exemplo: contabancaria;
 4. Para nomes de tabelas que representam relacionamentos 'um-para-muitos', usar o sublinhado como separador ou \_x_. Por exemplo: usuario_emprestimo ou usuario_x_emprestimo;
