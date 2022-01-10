@@ -36,7 +36,7 @@ Neste texto apresento algumas sugestões para a nomeação de objetos em bancos 
 1. O nome de uma chave estrangeira deve ser o nome da tabela estrangeira sufixado com \_id. Por exemplo: pessoa_id;
 
 ### Nomes de Colunas Booleanas
-1. O nome de colunas booleanas (verdadeiro ou falso) deve ser, se possível, um adjetivo, ou um verbo no particípio. Por exemplo: ativado, inativo;
+1. O nome de colunas booleanas (verdadeiro ou falso) deve ser, se possível, um adjetivo, ou um verbo no particípio. Por exemplo: ativado, inativo, devolvido;
 2. É possível o uso dos prefixos tem_ e com_. Por exemplo: tem_habilitacao, com_carencia;
 
 ## Referências
